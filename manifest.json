@@ -1,6 +1,6 @@
 {
   "name": "Whiteout",
-  "description": "Always ignore whitespace on github.com",
+  "description": "Always ignore whitespace for pull request reviews on github.com (uses ?w=1 url parameter)",
   "author": "Eric Halvorsen",
   "version": "0.1.0",
   "background": {
@@ -15,7 +15,7 @@
   ],
   "browser_action": {
     "default_popup": "options.html",
-    "default_title": "Whiteout - Ignore Github Whitespace"
+    "default_title": "Whiteout - Ignore Github Pull Request Whitespace Diffs"
   },
   "icons": {
     "16": "images/icon-16.png",
